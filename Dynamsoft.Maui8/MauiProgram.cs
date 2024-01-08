@@ -1,4 +1,5 @@
 ﻿using Microsoft.Extensions.Logging;
+using Dynamsoft.Maui8.Patch;
 
 namespace Dynamsoft.Maui8
 {
@@ -9,6 +10,7 @@ namespace Dynamsoft.Maui8
             var builder = MauiApp.CreateBuilder();
             builder
                 .UseMauiApp<App>()
+                .UseCustomCameraView()
                 .ConfigureFonts(fonts =>
                 {
                     fonts.AddFont("OpenSans-Regular.ttf", "OpenSansRegular");

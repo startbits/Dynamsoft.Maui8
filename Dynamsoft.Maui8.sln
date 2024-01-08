@@ -5,6 +5,8 @@ VisualStudioVersion = 17.8.34330.188
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dynamsoft.Maui8", "Dynamsoft.Maui8\Dynamsoft.Maui8.csproj", "{7F349961-7E9B-47EA-873B-A960F5B947FE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dynamsoft.Maui8.Patch", "Dynamsoft.Maui8.Patch\Dynamsoft.Maui8.Patch.csproj", "{2B97E36E-9F85-4048-8E03-399504C13191}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -17,6 +19,10 @@ Global
 		{7F349961-7E9B-47EA-873B-A960F5B947FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7F349961-7E9B-47EA-873B-A960F5B947FE}.Release|Any CPU.Build.0 = Release|Any CPU
 		{7F349961-7E9B-47EA-873B-A960F5B947FE}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{2B97E36E-9F85-4048-8E03-399504C13191}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2B97E36E-9F85-4048-8E03-399504C13191}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2B97E36E-9F85-4048-8E03-399504C13191}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2B97E36E-9F85-4048-8E03-399504C13191}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
